@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+.hidden {
+  display: none;
+}
+.time-numbers .showed {
+  display: inline-block;
+}
+.content {
+  width: 100%;
+  padding-top: 40px;
+  min-height: 100vh;
+  background: url(../img/main_bg.jpg);
+  background-size: cover;
+}
+.content .timer {
+  text-align: center;
+}
+.content .timer-title {
+  font-size: 36px;
+  color: #c78030;
+}
+.content .timer-action {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 40px;
+}
+.content .timer-numbers {
+  margin-top: 40px;
+  font-size: 90px;
+  color: #c78030;
+}
+.content .timer-numbers:after {
+  content: '';
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: #c78030;
+  margin: 0 auto;
+  margin-top: 4px;
+}
